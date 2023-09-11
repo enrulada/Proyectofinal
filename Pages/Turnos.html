@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Erica Brovelli">
+    <meta name="description" content="Proyecto final del curso de diseño desarrollo web flex">
+    <meta name="keywords" content="html,css,javaScript, react">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProyectoFinal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../Css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+  <head>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#"><img src="../img/logop2.jpg" alt="logo de peluqueria" width="200"></a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./turnos.html">Turnos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </head>
+
+    
+    <main>
+      <section class="turnos container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <a href="#ReservaDeTurno" class="turnos__politica"> Reserva de Turno </a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <a href="" class="turnos__politica">Link para abonar seña de reserva</a>
+          </div>
+        </div>
+        <div class="turnos-nota">
+          <p>
+            Para brindar una óptima atención y mejorar nuestro servicio, al momento de ser reservado un turno el cliente
+            acepta de manera consciente y tácita los términos y condiciones. No te olvides de leerlas aquí:
+          </p>
+        </div>
+        <div class="turnos__politica__reserva">
+          <h4>Politicas de Reserva</h4>
+          <p>
+            Los turnos son un compromiso, solicitamos responsabilidad al tomar el mismo.
+            Deberas confirmar tu asistencia abonando una seña del 10% del valor del o los servicios, dicha seña 
+            sera descontada del total de los servicios al asisitir al turno.
+          </p>
+          <p>
+            Las modificaciones y/o cancelaciones de los turnos se permitiran hasta 24 hs de anticipacion al mismo, si cumple 
+            los requisitos , se procedera a la devolucion de la seña.
+             
+          </p>
+          <p>
+            Una vez agendado el turno, el comprobante de seña debe ser enviado por WhatsApp al +54 9 3516197836 para que el turno quede agendado de manera correcta.
+            Cualquier duda, consulta y/o comentario sobre el turno puede ser enviado a nuestro WhatsApp.</p>
+        </div>       
+      </section>
+      <section id="ReservaDeTurno"><h5>Reserva de Turno</h5>
+        <div class="reserva container-fluid">
+         <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <iframe src="https://calendar.google.com/calendar/embed?src=065d55cbb290c391f810609aed30f645119e603fe27f006561eb866c0dc58bac%40group.calendar.google.com&ctz=America%2FArgentina%2FCordoba" style="border: 0" width="500" height="300" frameborder="0" scrolling="no"></iframe>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <form action="">
+              <select name="servicios">
+                <option value="p">Peluqueria</option>
+                <option value="b">Barberia</option>
+                <option value="m">Belleza de manos y pies</option>
+                <option value="pet">Pestañas</option>
+                <option value="ef">Estetica Facial</option>
+                <option value="ec">Estetica Corporal</option>
+              </select>
+            </form>
+          </div>
+         </div>
+
+      </section>
+     
+    </main>
+    <footer>
+        <div class="redes__sociales">
+          
+           <a href="https://wa.me/5493516197836"><i class="fa-brands fa-whatsapp"style="font-size:60px;" ></i></i></a>
+                 
+        </div>  
+
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  
+</body>
+</html>            

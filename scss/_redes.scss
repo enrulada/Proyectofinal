@@ -1,0 +1,17 @@
+.redes{
+    display: flex;
+    align-items: flex-end;
+    justify-content:right;
+&__sociales{
+a{ color: $color5;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    width: 20%;
+    display: block;
+    padding: 15px ;   
+
+}
+    
+}
+}

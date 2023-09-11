@@ -1,20 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:'Roboto', sans-serif; 
     box-sizing: border-box;
 }
 body{
-    background-image:linear-gradient( rgb(14, 14, 13),rgb(161, 160, 105));
+    background-image:linear-gradient( rgb(65, 65, 60),rgb(161, 160, 105));
     background-attachment: fixed;
 
       
 }
 
-.cuerpo1{
-    background-image:linear-gradient( rgb(14, 14, 13),rgb(161, 160, 105));
-    background-attachment: fixed;
+
     
-}
+
 section{
     display: flex;
     flex-direction: column;
@@ -23,8 +22,10 @@ section{
 }
 /*barra de navegacuion*/
 .navbar{
-    padding: 2rem;
+    padding: 1.2rem;
     background-color: black;
+    font-size:1.2rem ;
+    font-family: 'Roboto', sans-serif;
     
      
 }
@@ -38,7 +39,7 @@ section{
        
 }
 
-.salon .carousel{
+#salon.carousel{
     max-width: 1200px;
     
 }
@@ -71,8 +72,6 @@ section{
  }
 
     
-    
-    
  
  .col-imagen1{
     width:100% ;
@@ -90,6 +89,7 @@ section{
 .galeria.col-lg-4{
    padding: 40px;
    padding-bottom:25px ;
+   text-align: center;
  }
     
 .galeria img{
@@ -97,14 +97,22 @@ section{
     height:300px ;
     padding: 40px 20px 40px 20px;
 }
-.galeria h3{
-    text-align: center;
-}
+
 
 .galeria img:hover{
     border: 10px solid rgb(148, 147, 106);
 }
+.galeria-servicios  {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding-left:30px;
+    color: rgb(17, 22, 71);
 
+ }
+ .galeria-servicios:hover{
+    color: #345586;
+ }
 
 #produccion.col-lg-3{
     padding: 40px;
@@ -113,8 +121,8 @@ section{
      
 #produccion img{
      width:100% ;
-     height:350px ;
-     padding: 40px 20px 40px 20px;
+     height:80% ;
+     padding: 40px 40px 40px 40px;
      border-radius: 50%;
  }
  #produccion h3{
@@ -124,12 +132,13 @@ section{
  #produccion img:hover{
      border: 10px solid rgb(148, 147, 106);
     
- }*/
+ }
 
   h1{
     font-family: 'Roboto', sans-serif;
     font-size:2.5rem ;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom:30px;
     margin-top: auto;
 
  }
@@ -143,47 +152,120 @@ section{
     font-family: 'Roboto', sans-serif;
     font-size:1rem ;
  }
- h3{
-    font-family: 'Dancing Script', cursive;
-    font-size: 2.5rem;
+ 
+ .turnos-nota p{
+
+    font-family: 'Roboto', sans-serif;
+    font-size:1.4rem;
+    padding-top: 40px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:30px;
+
  }
 
- .redes-sociales{
-  
-    display: flex;
-    align-items: flex-end;
-    justify-content:right;
-    
-  }
-  .redes-sociales a{
-     color: rgb(85, 60, 7);
+ .turnos__politica__reserva h4{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    text-align: center;
-    font-size: 25px;
-    width: 20%;
-    display: block;
-    padding: 15px ;
+    color: #0e0d0d;
+    padding-top: 20px;
+    padding-left:20px;
+    padding-right:20px;
+
+   
+ }
+
+ .turnos__politica__reserva p{
+
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #080808;
+    padding-top: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:10px;
+ }
+
  
+ .turnos__politica{
+
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #123a68;  
     
-    
-  }
-  .redes-sociales a:hover{
-    color: #3c4a4b;
+ }
+ .turnos__politica:hover{
+    color: #c0d173;
+ }
+
+ h5{
+    font-size:1.8rem;
+    font-family: 'Dancing Script', cursive;
+    padding-top:40px;
+    padding-bottom:30px;
 }
 
-
+ 
+ h5:hover{
+    color: #c0d173;
+    padding-bottom:40px;
+}
 .col-sm-12 h2{
     font-family: 'Roboto', sans-serif;
-    font-size:2rem ;
+    font-size:1.8rem ;
     padding-top: 20px;
     padding-bottom: 20px;
     color: bisque;
     justify-content: center;
     
 }
-      .mapa{
-        padding-top: 30px;
-      }  
+.col-sm-12 h4{
+    font-family: 'Roboto', sans-serif;
+    font-size:1.5rem ;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    justify-content: center;
+    
+}
+.col-sm-12 iframe{
+    
+    padding-top: 20px;
+    padding-bottom: 40px;
+    justify-content: center;
+    box-shadow: 0px 20px 10px 10px rgb(64, 65, 42)
+    
+}
+
+.reserva{
+    background-color:rgb(82, 80, 80) ;
+    }
+
+
+ .redes__sociales{
+  
+    display: flex;
+    align-items: flex-end;
+    justify-content:right;
+    
+  }
+  .redes__sociales a{
+     color: rgb(85, 60, 7);
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    width: 20%;
+    display: block;
+    padding: 15px ;   
+  }
+
+  .redes__sociales a:hover{
+    color: #185c30;
+}
+
+    
 /*@media (max-width:767px){
     .navbar-brand{
         display: none;

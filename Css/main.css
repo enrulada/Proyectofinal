@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.turnos__politica {
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #123a68;
+}
+.turnos__politica hover {
+  color: #c0d173;
+}
+
+body {
+  background-image: linear-gradient(rgb(65, 65, 60), rgb(161, 160, 105));
+}
+
+.redes {
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+}
+.redes__sociales a {
+  color: rgb(85, 60, 7);
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  width: 20%;
+  display: block;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */
